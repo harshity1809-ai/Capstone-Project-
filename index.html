@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>venue</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav_menue">
+      <img
+        class="venue_logo"
+        src="./venue logo.png"
+        alt="venue logo"
+        height="100px"
+      />
+      <div class="nav_link">
+        <a class="link1" href="http://127.0.0.1:5500/index.html">Popular</a>
+        <a class="link2" href="#fetured_places">Blog Enteries</a>
+        <a class="link3" href="#our_services">Our Services</a>
+        <a class="link4" href="">Contact Us</a>
+        <div class="link5">
+          <select id="myDropdown" onchange="window.location.href = this.value;">
+            <option value="">Select a website</option>
+            <option value="https://www.google.com">Google</option>
+            <option value="https://www.wikipedia.org">Wikipedia</option>
+            <option value="https://www.github.com">GitHub</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="background_img">
+        <img class="background_mountain" src="./mountain background.jpg" alt="background_mountain" width="1520px" height="700px"/>
+      </div>
+      <div class="discover_tile">
+        <h1 class="background_heading">Best Finder For You</h1>
+        <p class="background_para">
+          Suspendisse eu lorem massa. Integer sit amet posuere tellus.
+        </p>
+        <a class="discover_link" href="#popular_places">Discover More</a>
+      </div>
+      <form class="form">
+        <input
+          class="input"
+          type="text"
+          placeholder="Your name..."
+          name="name"
+        />
+        <input
+          class="input"
+          type="text"
+          placeholder="Type location..."
+          name="location"
+        />
+        <select class="select1">
+          <option>Select Category</option>
+          <option>Shops</option>
+          <option>Hotels</option>
+          <option>Restaurants</option>
+          <option>Events</option>
+          <option>Meetings</option>
+          <option>Fitness</option>
+          <option>Cafes</option>
+        </select>
+        <button class="form_btn">Search Now</button>
+      </form>
+    </div>
+    <div id="popular_places">
+      <div class="popular_heading">
+        <h1>Popular Places</h1>
+        <div class="popular_para">
+          <p>Integer sapien odio</p>
+        </div>
+      </div>
+      <div class="popular_places_img">
+        <div>
+          <img src="./popular_item_1.jpg" alt="" width="230px" height="230px" />
+          <div class="img">
+            <h1>Lorem, ipsum.</h1>
+            <p>76 listings</p>
+          </div>
+          <div class="img_link">
+            <a class="img_link1" href="http://127.0.0.1:5500/index.html">+</a>
+          </div>
+        </div>
+
+        <div>
+          <img src="./popular_item_2.jpg" alt="" width="230px" height="230px" />
+          <div class="img">
+            <h1>Lorem, ipsum.</h1>
+            <p>13 listings</p>
+          </div>
+          <div class="img_link">
+            <a class="img_link1" href="http://127.0.0.1:5500/index.html">+</a>
+          </div>
+        </div>
+
+        <div>
+          <img src="./popular_item_3.jpg" alt="" width="230px" height="230px" />
+          <div class="img">
+            <h1>Lorem, ipsum.</h1>
+            <p>16 listings</p>
+          </div>
+          <div class="img_link">
+            <a class="img_link1" href="http://127.0.0.1:5500/index.html">+</a>
+          </div>
+        </div>
+
+        <div>
+          <img src="./popular_item_4.jpg" alt="" width="230px" height="230px" />
+          <div class="img">
+            <h1>Lorem, ipsum.</h1>
+            <p>55 listings</p>
+          </div>
+          <div class="img_link">
+            <a class="img_link1" href="http://127.0.0.1:5500/index.html">+</a>
+          </div>
+        </div>
+
+        <div>
+          <img src="./popular_item_6.jpg" alt="" width="230px" height="230px" />
+          <div class="img">
+            <h1>Lorem, ipsum.</h1>
+            <p>80 listings</p>
+          </div>
+          <div class="img_link">
+            <a class="img_link1" href="http://127.0.0.1:5500/index.html">+</a>
+          </div>
+        </div>
+
+        <div>
+          <img src="./popular_item_5.jpg" alt="" width="230px" height="230px" />
+          <div class="img">
+            <h1>Lorem, ipsum.</h1>
+            <p>40 listings</p>
+          </div>
+          <div class="img_link">
+            <a class="img_link1" href="http://127.0.0.1:5500/index.html">+</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div Id="fetured_places">
+      <div class="fetured_para">
+        <p>Featured Places</p>
+      </div>
+      <h1 class="fetured_heading">Praesent nec dui sed urna</h1>
+      <div class="fetured_img">
+        <div class="img_1">
+          <img class="featured_item_1" src="./featured_item_1.jpg" alt="fetured image 1">
+          <div class="featured_para">
+            <h1 class="featured_item_heading">Lorem ipsum dolor</h1>
+            <p class="featured_item_para">Category One</p>
+            <p class="featured_item_para1">Vestibulum id est eu felis vulputate hendrerit. Suspendisse dapibus turpis in dui pulvinar imperdiet. Nunc consectetur.</p>
+            <div>
+              <hr>
+              <h1 class="featured_date_heading">28 August</h1>
+            </div>
+          </div>
+          <div class="featured_tile_link">
+            <div class="featured_item_link">
+              <a class="featured_tile_link1" href="">Add to favorites</a>
+            </div>
+            <div class="featured_item_link">
+              <a class="featured_tile_link1" href="">Continue Reading</a>
+            </div>
+          </div>
+        </div>
+        <div class="img_2">
+          <img class="featured_item_2" src="./featured_item_2.jpg" alt="fetured image 2">
+          <div class="featured_para">
+            <h1 class="featured_item_heading">Nullam nibh lacus</h1>
+            <p class="featured_item_para">Category two</p>
+            <p class="featured_item_para1">Mauris sit amet quam congue, pulvinar urna et, congue diam. Suspendisse eu lorem massa. Integer sit amet posuere.</p>
+            <div>
+              <hr>
+              <h1 class="featured_date_heading">28 August</h1>
+            </div>
+          </div>
+          <hr>
+          <div class="featured_tile_link">
+            <div class="featured_item_link">
+              <a class="featured_tile_link2" href="">Add to favorites</a>
+            </div>
+            <div class="featured_item_link">
+              <a class="featured_tile_link2" href="">Continue Reading</a>
+            </div>
+          </div>
+          </div>
+        <div class="img_3">
+          <img class="featured_item_3" src="./featured_item_3.jpg" alt="fetured image 3">
+          <div class="featured_para">
+            <h1 class="featured_item_heading">Suspendisse semper non</h1>
+            <p class="featured_item_para">Category Three</p>
+            <p class="featured_item_para1">Praesent iaculis gravida elementum. Proin fermentum neque facilisis semper pharetra. Sed vestibulum vehicula tincidunt.</p>
+            <div>
+              <hr>
+              <h1 class="featured_date_heading">28 August</h1>
+            </div>
+          </div>
+          <hr>
+          <div class="featured_tile_link">
+            <div class="featured_item_link">
+              <a class="featured_tile_link3" href="">Add to favorites</a>
+            </div>
+            <div class="featured_item_link">
+              <a class="featured_tile_link3" href="">Continue Reading</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="our_services">
+      <div class="our_services_content">
+        <div class="our_services_para">
+          <p>Our Services</p>
+        </div>
+        <div class="our_services_heading">
+          <h1>Best Template Site</h1>
+        </div>
+      </div>
+      <div class="our_services_tile1">
+        <img src="./service_icon_1.png" alt="service_icon_1">
+        <h1>High Quality Design</h1>
+        <p>Etiam viverra nibh at lorem hendrerit porta non nec ligula. Donec hendrerit porttitor pretium. Suspendisse fermentum nec risus.</p>
+      </div>
+      <div class="our_services_tile2">
+        <img src="./service_icon_2.png" alt="service_icon_1">
+        <h1>Fully Customizable</h1>
+        <p>Vivamus nec vehicula felis, sit amet convallis ex. Aenean dolor risus, rutrum at tincidunt eget, placerat ac mauris.</p>
+      </div>
+      <div class="our_services_tile3">
+        <img src="./service_icon_3.png" alt="service_icon_1">
+        <h1>Best HTML CSS Layout</h1>
+        <p>Praesent nec dui sed urna pharetra dapibus at ac elit. Aenean hendrerit metus leo, quis viverra purus condimentum nec.</p>
+      </div>
+      <div class="our_services_box">
+        <div class="our_services_box_1">
+          <div class="our_services_box_1_heading">
+            <h1>In hac habitasse platea dictumst</h1>
+          </div>
+          <div class="our_services_box_1_para1">
+            <p>Aenean hendrerit metus leo, quis viverra purus condimentum nec. Pellentesque a sem semper, lobortis mauris non, varius urna. Quisque sodales purus eu tellus fringilla.</p>
+          </div>
+          <div class="our_services_box_1_para2">
+            <p>Mauris sit amet quam congue, pulvinar urna et, congue diam. Suspendisse eu lorem massa. Integer sit amet posuere tellus, id efficitur leo. In hac habitasse platea dictumst.</p>
+          </div>
+          <div>
+            <button class="our_services_box_1_button">Discover More</button>
+          </div>
+        </div>
+        <div class="our_services_box_2">
+          <div class="our_services_box_2_heading">
+            <h1>Ut in dapibus ipsum</h1>
+          </div>
+          <div class="our_services_box_2_button">
+          </div>
+          <div class="our_services_box_2_para">
+            <p>Nulla eget aliquet dui, vitae tincidunt nulla. Sed sagittis odio vitae auctor volutpat. In semper ex neque, ut hendrerit mauris rutrum eget. Integer consectetur neque eu enim dictum porta. Sed et risus ac sapien congue mattis.</p>
+          </div>
+          <div class="our_services_box_2_heading">
+            <h1>Vivamus ligula metus</h1>
+          </div>
+          <div class="our_services_box_2_button"></div>
+          <div class="our_services_box_2_para">
+            <p>Integer vel augue arcu. Fusce ac turpis cursus, malesuada nulla quis, lobortis dui. Etiam blandit, erat efficitur rhoncus pellentesque, ligula turpis tempor dolor.</p>
+          </div>
+          <div class="our_services_box_2_heading">
+            <h1>Suspendisse dapibus</h1>
+          </div>
+          <div class="our_services_box_2_button"></div>
+          <div class="our_services_box_2_para">
+            <p>Nullam nibh lacus, rhoncus sit amet feugiat vel, porttitor sit amet nibh. Pellentesque feugiat justo nec enim pretium, sed faucibus lacus aliquam. Sed ac interdum mauris.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <iframe class="map_tag" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=kr%20amnglam%20university+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"" frameborder="0""></iframe>
+      </div>
+      <div>
+        <hr class="horizontal_logo">
+        <div class="footer">
+          <div class="footer_box_1">
+            <img src="./footer_logo.png" alt="">
+            <p>Mauris sit amet quam congue, pulvinar urna et, congue diam. Suspendisse eu lorem massa. Integer sit amet posuere tellus, id efficitur leo. In hac habitasse platea dictumst.</p>
+            <div class="contact_link">
+              <a href="http://127.0.0.1:5500/index.html"> <img class="contact_logo" src="./facebook logo.png" alt=""> </a>
+              <a href="http://127.0.0.1:5500/index.html"> <img class="contact_logo" src="./twiter logo.png" alt="twiter logo"></a>
+              <a href="http://127.0.0.1:5500/index.html"><img class="contact_logo" src="./linkedin logo.png" alt="linkedin logo"></a>
+            </div>
+          </div>
+          <div class="footer_box_2">
+            <h3 class="box_2_heading">Use full link</h3>
+            <ul>
+              <li><a class="footer_link" href="">Help FAQs</a></li>
+              <li><a class="footer_link" href="">Register</a></li>
+              <li><a class="footer_link" href="">My Profile</a></li>
+              <li><a class="footer_link" href="">How It Works?</a></li>
+              <li><a class="footer_link" href="">More About Us</a></li>
+              <li><a class="footer_link" href="">More About Us</a></li>
+              <li><a class="footer_link" href="">Our Clients </a></li>
+              <li><a class="footer_link" href=""> Partnerships</a></li>
+              <li><a class="footer_link" href="">Blog Entries</a></li>
+              <li><a class="footer_link" href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer_box_3">
+            <h3>Contact Information</h3>
+            <p>Praesent iaculis gravida elementum. Proin fermentum neque facilisis semper pharetra. Sed vestibulum vehicula tincidunt.</p>
+            <p>Phone:  010-050-0550</p>
+            <p>Email:  hi@company.co</p>
+            <p>Address:  company.co</p>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
