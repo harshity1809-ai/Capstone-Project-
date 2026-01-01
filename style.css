@@ -3,6 +3,8 @@ body{
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
+  margin: 0;
+  padding: 0;
 }
 .nav_menue{
     height: 100px;
@@ -475,4 +477,5 @@ body{
 .horizontal_logo{
     position: relative;
     bottom: 750px;
+
 }
